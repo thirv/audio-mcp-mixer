@@ -69,7 +69,7 @@ A project config is already provided at `.vscode/mcp.json`:
 }
 ```
 
-In **Settings**, enable `chat.tools.automaticallyCreateMcpServers` (or use the **MCP** button in the chat input) to add the project server. Make sure the `audio-renderer-agent` conda environment is the selected Python interpreter.
+In **Settings**, enable `chat.tools.automaticallyCreateMcpServers` (or use the **MCP** button in the chat input) to add the project server.
 
 ### Claude Desktop
 
