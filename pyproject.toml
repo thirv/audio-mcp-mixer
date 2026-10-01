@@ -1,0 +1,20 @@
+# Repository-level tool configuration.
+#
+# The [tool.pytest.ini_options] section does two important things:
+#
+# 1. It anchors pytest's ``rootdir`` at the repository root, which makes the
+#    suite's behavior independent of the current working directory.
+# 2. ``pythonpath = ["."]`` puts the repo root on ``sys.path`` for every test
+#    (built-in since pytest 7.0), so test modules can do
+#    ``from ear_direct_renderer import ...`` / ``import mcp_server`` no matter
+#    where pytest is launched from. This is the standard, zero-dependency
+#    alternative to a ``sys.path`` shim in conftest.py.
+#
+# A root ``conftest.py`` is also kept as a defensive, self-documenting backstop
+# that inserts the repo root onto ``sys.path`` unambiguously via ``__file__``.
+
+[tool.pytest.ini_options]
+# Make project-level imports resolve from any working directory.
+pythonpath = ["."]
+# Bare ``pytest`` (no arguments) collects from the tests directory.
+testpaths = ["tests"]
