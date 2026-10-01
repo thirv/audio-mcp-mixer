@@ -135,5 +135,5 @@ If you use this research or code in your work, please cite it as follows:
   publisher    = {GitHub},
   version      = {1.0.0},
   url          = {https://github.com/thirv/audio-mcp-mixer},
-  doi          = {10.5281/zenodo.23074340}
+  doi          = {10.5281/zenodo.23074962}
 }
