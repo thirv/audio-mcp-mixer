@@ -55,7 +55,7 @@ The server speaks MCP over **stdio** (`python mcp_server.py`), so any MCP client
 
 ### VS Code
 
-A project config is already provided at `.vscode/mcp.json`:
+MCP config for example with Cline extension should point to `mcp_server.py`:
 
 ```json
 {
@@ -69,7 +69,7 @@ A project config is already provided at `.vscode/mcp.json`:
 }
 ```
 
-In **Settings**, enable `chat.tools.automaticallyCreateMcpServers` (or use the **MCP** button in the chat input) to add the project server.
+In **Settings**, enable `chat.tools.automaticallyCreateMcpServers (or use the **MCP** button in the chat input) to add the project server.
 
 ### Claude Desktop
 
