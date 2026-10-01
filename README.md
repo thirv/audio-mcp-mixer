@@ -109,7 +109,7 @@ Add a project-level `.cursor/mcp.json`:
 A hermetic smoke test drives the real server over stdio (tool listing, resources, a full stereo render + analysis, and the failure modes):
 
 ```bash
-pytest test_mcp_server.py -v
+pytest tests/test_mcp_server.py -v
 ```
 
 ## Licensing
@@ -134,5 +134,6 @@ If you use this research or code in your work, please cite it as follows:
   year         = {2026},
   publisher    = {GitHub},
   version      = {1.0.0},
-  url          = {https://github.com/thirv/audio-renderer-agent}
+  url          = {https://github.com/thirv/audio-mcp-mixer},
+  doi          = {10.5281/zenodo.23074340}
 }
