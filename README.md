@@ -51,7 +51,7 @@ The MCP application of your choice will use available tools to create immersive 
 
 ## MCP setup
 
-The server speaks MCP over **stdio** (`python mcp_server.py`), so any MCP client can drive it. It depends on the `mcp` package (installed via `pip install -r requirements.txt`, step 1). Point `command` at the `audio-renderer-agent` conda environment's `python` (an absolute path is safest for desktop clients, which don't inherit an activated shell).
+The server speaks MCP over **stdio** (`python mcp_server.py`), so any MCP client can drive it. It depends on the `mcp` package (installed via `pip install -r requirements.txt`, step 1). 
 
 ### VS Code
 
