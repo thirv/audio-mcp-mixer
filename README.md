@@ -134,5 +134,6 @@ If you use this research or code in your work, please cite it as follows:
   year         = {2026},
   publisher    = {GitHub},
   version      = {1.0.0},
-  url          = {https://github.com/thirv/audio-renderer-agent}
+  url          = {https://github.com/thirv/audio-mcp-mixer}
+  doi          = {10.5281/zenodo.23074340}
 }
