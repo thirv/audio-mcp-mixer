@@ -1,0 +1,18 @@
+# Core audio rendering (EBU EAR) + MCP server/transport
+ear==2.1.0
+mcp==1.30.0
+
+# Numeric / audio I/O
+numpy>=1.26
+soundfile>=0.14
+scipy>=1.10
+
+# ML / embedding stack (CLAP + FAISS + HuggingFace datasets)
+torch>=2.0
+transformers>=4.40
+faiss-cpu>=1.7
+datasets>=2.16
+torchcodec>=0.4
+
+# Testing
+pytest>=7.0
